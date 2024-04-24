@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.app {
+  display: grid;
+  grid-template-columns: 400px 800px; /* 반반으로 나누기 */
+  height: 100vh; /* 화면 전체 높이로 설정 */
+}
